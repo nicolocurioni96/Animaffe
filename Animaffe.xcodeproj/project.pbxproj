@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A107AA512C230A7F006453E5 /* AnimaffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA502C230A7F006453E5 /* AnimaffeApp.swift */; };
+		A107AA532C230A7F006453E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA522C230A7F006453E5 /* ContentView.swift */; };
+		A107AA552C230A81006453E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107AA542C230A81006453E5 /* Assets.xcassets */; };
+		A107AA582C230A81006453E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107AA572C230A81006453E5 /* Preview Assets.xcassets */; };
+		A107AA622C230A81006453E5 /* AnimaffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA612C230A81006453E5 /* AnimaffeTests.swift */; };
+		A107AA6C2C230A81006453E5 /* AnimaffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */; };
+		A107AA6E2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A107AA5E2C230A81006453E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A107AA452C230A7F006453E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A107AA4C2C230A7F006453E5;
+			remoteInfo = Animaffe;
+		};
+		A107AA682C230A81006453E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A107AA452C230A7F006453E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A107AA4C2C230A7F006453E5;
+			remoteInfo = Animaffe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A107AA4D2C230A7F006453E5 /* Animaffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animaffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A107AA502C230A7F006453E5 /* AnimaffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeApp.swift; sourceTree = "<group>"; };
+		A107AA522C230A7F006453E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A107AA542C230A81006453E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A107AA572C230A81006453E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A107AA5D2C230A81006453E5 /* AnimaffeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaffeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A107AA612C230A81006453E5 /* AnimaffeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeTests.swift; sourceTree = "<group>"; };
+		A107AA672C230A81006453E5 /* AnimaffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITests.swift; sourceTree = "<group>"; };
+		A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A107AA4A2C230A7F006453E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA5A2C230A81006453E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA642C230A81006453E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A107AA442C230A7F006453E5 = {
+			isa = PBXGroup;
+			children = (
+				A107AA4F2C230A7F006453E5 /* Animaffe */,
+				A107AA602C230A81006453E5 /* AnimaffeTests */,
+				A107AA6A2C230A81006453E5 /* AnimaffeUITests */,
+				A107AA4E2C230A7F006453E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A107AA4E2C230A7F006453E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA4D2C230A7F006453E5 /* Animaffe.app */,
+				A107AA5D2C230A81006453E5 /* AnimaffeTests.xctest */,
+				A107AA672C230A81006453E5 /* AnimaffeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A107AA4F2C230A7F006453E5 /* Animaffe */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA502C230A7F006453E5 /* AnimaffeApp.swift */,
+				A107AA522C230A7F006453E5 /* ContentView.swift */,
+				A107AA542C230A81006453E5 /* Assets.xcassets */,
+				A107AA562C230A81006453E5 /* Preview Content */,
+			);
+			path = Animaffe;
+			sourceTree = "<group>";
+		};
+		A107AA562C230A81006453E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA572C230A81006453E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A107AA602C230A81006453E5 /* AnimaffeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA612C230A81006453E5 /* AnimaffeTests.swift */,
+			);
+			path = AnimaffeTests;
+			sourceTree = "<group>";
+		};
+		A107AA6A2C230A81006453E5 /* AnimaffeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */,
+				A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */,
+			);
+			path = AnimaffeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A107AA4C2C230A7F006453E5 /* Animaffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A107AA712C230A81006453E5 /* Build configuration list for PBXNativeTarget "Animaffe" */;
+			buildPhases = (
+				A107AA492C230A7F006453E5 /* Sources */,
+				A107AA4A2C230A7F006453E5 /* Frameworks */,
+				A107AA4B2C230A7F006453E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animaffe;
+			productName = Animaffe;
+			productReference = A107AA4D2C230A7F006453E5 /* Animaffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A107AA5C2C230A81006453E5 /* AnimaffeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A107AA742C230A81006453E5 /* Build configuration list for PBXNativeTarget "AnimaffeTests" */;
+			buildPhases = (
+				A107AA592C230A81006453E5 /* Sources */,
+				A107AA5A2C230A81006453E5 /* Frameworks */,
+				A107AA5B2C230A81006453E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A107AA5F2C230A81006453E5 /* PBXTargetDependency */,
+			);
+			name = AnimaffeTests;
+			productName = AnimaffeTests;
+			productReference = A107AA5D2C230A81006453E5 /* AnimaffeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A107AA662C230A81006453E5 /* AnimaffeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A107AA772C230A81006453E5 /* Build configuration list for PBXNativeTarget "AnimaffeUITests" */;
+			buildPhases = (
+				A107AA632C230A81006453E5 /* Sources */,
+				A107AA642C230A81006453E5 /* Frameworks */,
+				A107AA652C230A81006453E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A107AA692C230A81006453E5 /* PBXTargetDependency */,
+			);
+			name = AnimaffeUITests;
+			productName = AnimaffeUITests;
+			productReference = A107AA672C230A81006453E5 /* AnimaffeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A107AA452C230A7F006453E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A107AA4C2C230A7F006453E5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A107AA5C2C230A81006453E5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A107AA4C2C230A7F006453E5;
+					};
+					A107AA662C230A81006453E5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A107AA4C2C230A7F006453E5;
+					};
+				};
+			};
+			buildConfigurationList = A107AA482C230A7F006453E5 /* Build configuration list for PBXProject "Animaffe" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A107AA442C230A7F006453E5;
+			productRefGroup = A107AA4E2C230A7F006453E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A107AA4C2C230A7F006453E5 /* Animaffe */,
+				A107AA5C2C230A81006453E5 /* AnimaffeTests */,
+				A107AA662C230A81006453E5 /* AnimaffeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A107AA4B2C230A7F006453E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A107AA582C230A81006453E5 /* Preview Assets.xcassets in Resources */,
+				A107AA552C230A81006453E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA5B2C230A81006453E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA652C230A81006453E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A107AA492C230A7F006453E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A107AA532C230A7F006453E5 /* ContentView.swift in Sources */,
+				A107AA512C230A7F006453E5 /* AnimaffeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA592C230A81006453E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A107AA622C230A81006453E5 /* AnimaffeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A107AA632C230A81006453E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A107AA6E2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift in Sources */,
+				A107AA6C2C230A81006453E5 /* AnimaffeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A107AA5F2C230A81006453E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A107AA4C2C230A7F006453E5 /* Animaffe */;
+			targetProxy = A107AA5E2C230A81006453E5 /* PBXContainerItemProxy */;
+		};
+		A107AA692C230A81006453E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A107AA4C2C230A7F006453E5 /* Animaffe */;
+			targetProxy = A107AA682C230A81006453E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A107AA6F2C230A81006453E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A107AA702C230A81006453E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A107AA722C230A81006453E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animaffe/Preview Content\"";
+				DEVELOPMENT_TEAM = 59XYW74885;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.Animaffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A107AA732C230A81006453E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animaffe/Preview Content\"";
+				DEVELOPMENT_TEAM = 59XYW74885;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.Animaffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A107AA752C230A81006453E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59XYW74885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.AnimaffeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animaffe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animaffe";
+			};
+			name = Debug;
+		};
+		A107AA762C230A81006453E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59XYW74885;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.AnimaffeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animaffe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animaffe";
+			};
+			name = Release;
+		};
+		A107AA782C230A81006453E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59XYW74885;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.AnimaffeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animaffe;
+			};
+			name = Debug;
+		};
+		A107AA792C230A81006453E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59XYW74885;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolocurioni.AnimaffeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animaffe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A107AA482C230A7F006453E5 /* Build configuration list for PBXProject "Animaffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A107AA6F2C230A81006453E5 /* Debug */,
+				A107AA702C230A81006453E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A107AA712C230A81006453E5 /* Build configuration list for PBXNativeTarget "Animaffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A107AA722C230A81006453E5 /* Debug */,
+				A107AA732C230A81006453E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A107AA742C230A81006453E5 /* Build configuration list for PBXNativeTarget "AnimaffeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A107AA752C230A81006453E5 /* Debug */,
+				A107AA762C230A81006453E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A107AA772C230A81006453E5 /* Build configuration list for PBXNativeTarget "AnimaffeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A107AA782C230A81006453E5 /* Debug */,
+				A107AA792C230A81006453E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A107AA452C230A7F006453E5 /* Project object */;
+}
