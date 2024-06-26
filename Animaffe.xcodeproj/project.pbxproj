@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A107AA512C230A7F006453E5 /* AnimaffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA502C230A7F006453E5 /* AnimaffeApp.swift */; };
-		A107AA532C230A7F006453E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA522C230A7F006453E5 /* ContentView.swift */; };
 		A107AA552C230A81006453E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107AA542C230A81006453E5 /* Assets.xcassets */; };
 		A107AA582C230A81006453E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A107AA572C230A81006453E5 /* Preview Assets.xcassets */; };
 		A107AA622C230A81006453E5 /* AnimaffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA612C230A81006453E5 /* AnimaffeTests.swift */; };
 		A107AA6C2C230A81006453E5 /* AnimaffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */; };
 		A107AA6E2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */; };
+		A1FDE4722C2C82B300AE4AF0 /* EffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */; };
+		A1FDE4772C2C846E00AE4AF0 /* Twirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4762C2C846E00AE4AF0 /* Twirl.swift */; };
+		A1FDE47B2C2C865400AE4AF0 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */; };
+		A1FDE47C2C2C865400AE4AF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4672C2C800D00AE4AF0 /* HomeView.swift */; };
+		A1FDE4802C2C86F800AE4AF0 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE47F2C2C86F800AE4AF0 /* DynamicView.swift */; };
+		A1FDE4822C2C88C600AE4AF0 /* CustomSystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4812C2C88C600AE4AF0 /* CustomSystemImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		A107AA4D2C230A7F006453E5 /* Animaffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animaffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AA502C230A7F006453E5 /* AnimaffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeApp.swift; sourceTree = "<group>"; };
-		A107AA522C230A7F006453E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A107AA542C230A81006453E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A107AA572C230A81006453E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A107AA5D2C230A81006453E5 /* AnimaffeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaffeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		A107AA672C230A81006453E5 /* AnimaffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITests.swift; sourceTree = "<group>"; };
 		A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1FDE4672C2C800D00AE4AF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
+		A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectType.swift; sourceTree = "<group>"; };
+		A1FDE4762C2C846E00AE4AF0 /* Twirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twirl.swift; sourceTree = "<group>"; };
+		A1FDE47F2C2C86F800AE4AF0 /* DynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
+		A1FDE4812C2C88C600AE4AF0 /* CustomSystemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSystemImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,10 @@
 		A107AA4F2C230A7F006453E5 /* Animaffe */ = {
 			isa = PBXGroup;
 			children = (
-				A107AA502C230A7F006453E5 /* AnimaffeApp.swift */,
-				A107AA522C230A7F006453E5 /* ContentView.swift */,
+				A1FDE4702C2C828C00AE4AF0 /* App */,
+				A1FDE4692C2C80F300AE4AF0 /* Views */,
+				A1FDE4742C2C845D00AE4AF0 /* Components */,
+				A1FDE46F2C2C828700AE4AF0 /* Models */,
 				A107AA542C230A81006453E5 /* Assets.xcassets */,
 				A107AA562C230A81006453E5 /* Preview Content */,
 			);
@@ -125,6 +137,81 @@
 				A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */,
 			);
 			path = AnimaffeUITests;
+			sourceTree = "<group>";
+		};
+		A1FDE4692C2C80F300AE4AF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE4782C2C85EB00AE4AF0 /* Home */,
+				A1FDE4792C2C85F100AE4AF0 /* Effect Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1FDE46F2C2C828700AE4AF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */,
+				A1FDE4812C2C88C600AE4AF0 /* CustomSystemImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1FDE4702C2C828C00AE4AF0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A107AA502C230A7F006453E5 /* AnimaffeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1FDE4742C2C845D00AE4AF0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE47D2C2C86CE00AE4AF0 /* UI */,
+				A1FDE4752C2C846500AE4AF0 /* Transitions */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A1FDE4752C2C846500AE4AF0 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE4762C2C846E00AE4AF0 /* Twirl.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		A1FDE4782C2C85EB00AE4AF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE4672C2C800D00AE4AF0 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1FDE4792C2C85F100AE4AF0 /* Effect Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */,
+			);
+			path = "Effect Views";
+			sourceTree = "<group>";
+		};
+		A1FDE47D2C2C86CE00AE4AF0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE47E2C2C86DC00AE4AF0 /* Custom Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A1FDE47E2C2C86DC00AE4AF0 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FDE47F2C2C86F800AE4AF0 /* DynamicView.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A107AA532C230A7F006453E5 /* ContentView.swift in Sources */,
+				A1FDE4802C2C86F800AE4AF0 /* DynamicView.swift in Sources */,
+				A1FDE4772C2C846E00AE4AF0 /* Twirl.swift in Sources */,
 				A107AA512C230A7F006453E5 /* AnimaffeApp.swift in Sources */,
+				A1FDE4822C2C88C600AE4AF0 /* CustomSystemImage.swift in Sources */,
+				A1FDE4722C2C82B300AE4AF0 /* EffectType.swift in Sources */,
+				A1FDE47B2C2C865400AE4AF0 /* CustomTransitionView.swift in Sources */,
+				A1FDE47C2C2C865400AE4AF0 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
