@@ -13,6 +13,14 @@
 		A107AA622C230A81006453E5 /* AnimaffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA612C230A81006453E5 /* AnimaffeTests.swift */; };
 		A107AA6C2C230A81006453E5 /* AnimaffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */; };
 		A107AA6E2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */; };
+		A1417CFB2C3EBFCE0072A910 /* ScrollTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417CFA2C3EBFCE0072A910 /* ScrollTransitionView.swift */; };
+		A1417CFD2C3EC05A0072A910 /* ScrollTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417CFC2C3EC05A0072A910 /* ScrollTransitionType.swift */; };
+		A1417D032C3EC1470072A910 /* ScrollPagingParallaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D022C3EC1470072A910 /* ScrollPagingParallaxView.swift */; };
+		A1417D052C3EC14C0072A910 /* ScrollPagingRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D042C3EC14C0072A910 /* ScrollPagingRotationView.swift */; };
+		A1417D082C3EC4F00072A910 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D072C3EC4F00072A910 /* Photo.swift */; };
+		A1417D0A2C3EC50A0072A910 /* ItemPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D092C3EC50A0072A910 /* ItemPhoto.swift */; };
+		A1417D0C2C3EC51C0072A910 /* ItemLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D0B2C3EC51C0072A910 /* ItemLabel.swift */; };
+		A1417D0E2C3EC6090072A910 /* ScrollPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1417D0D2C3EC6090072A910 /* ScrollPagingView.swift */; };
 		A1FDE4722C2C82B300AE4AF0 /* EffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */; };
 		A1FDE4772C2C846E00AE4AF0 /* Twirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE4762C2C846E00AE4AF0 /* Twirl.swift */; };
 		A1FDE47B2C2C865400AE4AF0 /* CustomTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */; };
@@ -48,6 +56,14 @@
 		A107AA672C230A81006453E5 /* AnimaffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimaffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AA6B2C230A81006453E5 /* AnimaffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITests.swift; sourceTree = "<group>"; };
 		A107AA6D2C230A81006453E5 /* AnimaffeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaffeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1417CFA2C3EBFCE0072A910 /* ScrollTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionView.swift; sourceTree = "<group>"; };
+		A1417CFC2C3EC05A0072A910 /* ScrollTransitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionType.swift; sourceTree = "<group>"; };
+		A1417D022C3EC1470072A910 /* ScrollPagingParallaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPagingParallaxView.swift; sourceTree = "<group>"; };
+		A1417D042C3EC14C0072A910 /* ScrollPagingRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPagingRotationView.swift; sourceTree = "<group>"; };
+		A1417D072C3EC4F00072A910 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		A1417D092C3EC50A0072A910 /* ItemPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPhoto.swift; sourceTree = "<group>"; };
+		A1417D0B2C3EC51C0072A910 /* ItemLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLabel.swift; sourceTree = "<group>"; };
+		A1417D0D2C3EC6090072A910 /* ScrollPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPagingView.swift; sourceTree = "<group>"; };
 		A1FDE4672C2C800D00AE4AF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionView.swift; sourceTree = "<group>"; };
 		A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectType.swift; sourceTree = "<group>"; };
@@ -139,6 +155,36 @@
 			path = AnimaffeUITests;
 			sourceTree = "<group>";
 		};
+		A1417CFE2C3EC1190072A910 /* Scroll Transition */ = {
+			isa = PBXGroup;
+			children = (
+				A1417CFA2C3EBFCE0072A910 /* ScrollTransitionView.swift */,
+				A1417CFF2C3EC12B0072A910 /* Transitions */,
+			);
+			path = "Scroll Transition";
+			sourceTree = "<group>";
+		};
+		A1417CFF2C3EC12B0072A910 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				A1417D022C3EC1470072A910 /* ScrollPagingParallaxView.swift */,
+				A1417D042C3EC14C0072A910 /* ScrollPagingRotationView.swift */,
+				A1417D0D2C3EC6090072A910 /* ScrollPagingView.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		A1417D062C3EC4D30072A910 /* Scroll Transition */ = {
+			isa = PBXGroup;
+			children = (
+				A1417CFC2C3EC05A0072A910 /* ScrollTransitionType.swift */,
+				A1417D072C3EC4F00072A910 /* Photo.swift */,
+				A1417D092C3EC50A0072A910 /* ItemPhoto.swift */,
+				A1417D0B2C3EC51C0072A910 /* ItemLabel.swift */,
+			);
+			path = "Scroll Transition";
+			sourceTree = "<group>";
+		};
 		A1FDE4692C2C80F300AE4AF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +199,7 @@
 			children = (
 				A1FDE4712C2C82B300AE4AF0 /* EffectType.swift */,
 				A1FDE4812C2C88C600AE4AF0 /* CustomSystemImage.swift */,
+				A1417D062C3EC4D30072A910 /* Scroll Transition */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				A1FDE46E2C2C813900AE4AF0 /* CustomTransitionView.swift */,
+				A1417CFE2C3EC1190072A910 /* Scroll Transition */,
 			);
 			path = "Effect Views";
 			sourceTree = "<group>";
@@ -344,13 +392,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1417D082C3EC4F00072A910 /* Photo.swift in Sources */,
+				A1417D032C3EC1470072A910 /* ScrollPagingParallaxView.swift in Sources */,
+				A1417CFD2C3EC05A0072A910 /* ScrollTransitionType.swift in Sources */,
 				A1FDE4802C2C86F800AE4AF0 /* DynamicView.swift in Sources */,
 				A1FDE4772C2C846E00AE4AF0 /* Twirl.swift in Sources */,
+				A1417CFB2C3EBFCE0072A910 /* ScrollTransitionView.swift in Sources */,
 				A107AA512C230A7F006453E5 /* AnimaffeApp.swift in Sources */,
 				A1FDE4822C2C88C600AE4AF0 /* CustomSystemImage.swift in Sources */,
+				A1417D0A2C3EC50A0072A910 /* ItemPhoto.swift in Sources */,
+				A1417D0E2C3EC6090072A910 /* ScrollPagingView.swift in Sources */,
+				A1417D0C2C3EC51C0072A910 /* ItemLabel.swift in Sources */,
 				A1FDE4722C2C82B300AE4AF0 /* EffectType.swift in Sources */,
 				A1FDE47B2C2C865400AE4AF0 /* CustomTransitionView.swift in Sources */,
 				A1FDE47C2C2C865400AE4AF0 /* HomeView.swift in Sources */,
+				A1417D052C3EC14C0072A910 /* ScrollPagingRotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

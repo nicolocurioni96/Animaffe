@@ -43,6 +43,7 @@ struct CustomTransitionView: View {
             } else {
                 VStack {
                     Text("Empty list..")
+                        .padding()
                 }
             }
             

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var effects: [EffectType] = [
-        .init(name: "Custom Transition", viewType: .init(CustomTransitionView()))
+        .init(name: "Custom Transition", viewType: .init(CustomTransitionView())),
+        .init(name: "Scroll Transition", viewType: .init(ScrollTransitionView()))
     ]
     
     var body: some View {
