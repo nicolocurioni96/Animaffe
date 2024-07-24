@@ -2,15 +2,14 @@
 //  HomeView.swift
 //  Animaffe
 //
-//  Created by Nicolò Curioni on 26/06/24.
+//  Created by Nicolò Curioni on 24/07/24.
 //
 
 import SwiftUI
 
 struct HomeView: View {
     @State private var effects: [EffectType] = [
-        .init(name: "Custom Transition", viewType: .init(CustomTransitionView())),
-        .init(name: "Scroll Transition", viewType: .init(ScrollTransitionView()))
+        .init(name: "Custom Transition", viewType: .init(CustomTransitionView()))
     ]
     
     var body: some View {
@@ -22,7 +21,7 @@ struct HomeView: View {
                     } label: {
                         HStack {
                             Text(effect.name)
-                                .font(.title3)
+                                .font(.title2)
                                 .fontWeight(.medium)
                         }
                     }
